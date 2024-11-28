@@ -1,0 +1,91 @@
+/* Seat Map Container */
+.seat-map-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title */
+  .seat-map-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Coach Full Message */
+  .coach-full-message {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  /* Seat Grid */
+  .seat-map-grid {
+    margin-top: 20px;
+  }
+  
+  /* Seat Rows */
+  .seat-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Row Labels */
+  .row-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Seat Row Container */
+  .seat-row-container {
+    display: flex;
+    gap: 8px;
+  }
+  
+  /* Seat Button */
+  .seat-button {
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+    text-transform: none;
+    border-radius: 5px;
+  }
+  
+  /* Reserved Seat */
+  .reserved-seat {
+    background-color: #d32f2f;
+    color: #fff;
+    cursor: not-allowed;
+  }
+  
+  /* Available Seat */
+  .available-seat {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  /* Preview Seat */
+  .preview-seat {
+    background-color: #ff9800;
+    color: #fff;
+  }
+  
+  /* Booking Form */
+  .booking-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Booking Input */
+  .booking-input {
+    margin-right: 15px;
+  }
+  
+  /* Booking Button */
+  .booking-button {
+    height: 56px;
+  }
+  
